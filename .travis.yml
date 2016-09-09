@@ -3,7 +3,7 @@ services:
   - docker
 
 env:
-  - VERSION=vlatest
+  - VERSION=latest
   - VERSION=v3.0.7
   - VERSION=v3.0.6
   - VERSION=v3.0.5
