@@ -4,6 +4,14 @@ services:
 
 env:
   - VERSION=latest
+  - VERSION=v3.0.15
+  - VERSION=v3.0.14
+  - VERSION=v3.0.13
+  - VERSION=v3.0.12
+  - VERSION=v3.0.11
+  - VERSION=v3.0.10
+  - VERSION=v3.0.9
+  - VERSION=v3.0.8
   - VERSION=v3.0.7
   - VERSION=v3.0.6
   - VERSION=v3.0.5
