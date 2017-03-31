@@ -3,7 +3,7 @@ services:
   - docker
 
 script:
-  - docker pull --all-tags quay.io/coreos/etcd
+  - docker pull --all-tags gcr.io/google_containers/etcd
 
 after_success:
   - docker images
