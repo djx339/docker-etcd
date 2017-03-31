@@ -2,9 +2,6 @@ language: bash
 services:
   - docker
 
-before_script:
-  - image="djx339/etcd:${VERSION}"
-
 script:
   - docker pull --all-tags quay.io/coreos/etcd
 
